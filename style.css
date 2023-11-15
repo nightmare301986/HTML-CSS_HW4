@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./font2/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./font2/Gilroy-Medium.woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: 0 none;
+}
+
+body {
+    font-weight: 400;
+    background: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    line-height: normal;
+    color: #000;
+    width: 533px;
+
+}
+
+.link__menu {
+    color: #000000;
+    line-height: 17px;
+    font-size: 16px;
+}
+
+.seldiv {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    border: none;
+}
+
+.top_content {
+    margin-top: 84px;
+    margin-bottom: 162px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__text {
+    padding-top: 59px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: normal;
+    margin-bottom: 17px;
+    width: 522px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: normal;
+    color: #888;
+    width: 466px;
+}
+
+.top__buttons {
+    margin-top: 37px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    display: block;
+}
+
+.buttons {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 15px;
+    padding-top: 15px;
+    padding: 15px 36px 16px 35px;
+    color: #FFF;
+    border: none;
+}
+
+.link__topbutton {
+    font-size: 15px;
+    line-height: normal;
+    color: #AAA;
+}
+
+.footer {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
